@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>GifTastic</title>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+   <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+      <div class="jumbotron">
+        <h1 class="display-4">Netflix and GIPHY!</h1>
+        
+      </div>
+
+
+   <div class="container">
+       <div class="row">
+           <div class="col-md-12 p-md-0 m-0 mx-auto" id="buttons-view"></div>
+       </div>
+       <div class="row mt-0 pt-0 justify-content-center">
+           <div class="col-md-8  p-md-0 m-md-0" id="giffs-view"></div>
+           <div class="col-md-4  p-0 m-0">
+               <form id="giff-form">
+                   <div class="form-group">
+                       <label for="giff-input">Add a Netflix series:</label>
+                       <input id="giff-input" type="text" class="form-control" id="search">
+                       <button id="add-giff" type="submit" class="mt-2">Search</button>
+                   </div>
+               </form>
+           </div>
+       </div>
+   </div>
+   <script src="assets/java.js"></script>
+</body>
+</html>

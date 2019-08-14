@@ -1,0 +1,15 @@
+.jumbotron {
+text-align: center;
+text: red;
+
+}
+
+.div {
+    width: 300px;
+    float: left;
+
+}
+
+button {
+    margin: 10px;
+}
